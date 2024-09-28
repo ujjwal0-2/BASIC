@@ -16,3 +16,19 @@ int main()
     cout<<"Fail"<<endl;
   }
 }
+
+// New code for fun
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+  int bronum ;
+  cin >> bronum;
+  if(bronum==0){
+      cout<<"baaat bana jaye gi";
+  }else{
+      cout<<"baat nhi bane gyi";
+  }
+ 
+}
