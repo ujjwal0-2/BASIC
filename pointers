@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// Pointers
+	
+//	int a=5;
+//	int b=6;
+//	
+//	cout<<a<<endl<<&a<<endl;
+
+
+int a=5;
+int* ptr=&a;
+
+cout<<*ptr<<endl;
+cout<<sizeof(ptr)<<endl;
+
+// null pointer
+int* p=0;
+cout<<*p<<endl;
+
+// copy pointer
+
+int b=10;
+int*c=&b;
+
+int* dusP=c;
+	
+	
+	
+}
